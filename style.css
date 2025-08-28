@@ -1,0 +1,231 @@
+/* Core Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f7fa;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+/* Header & Navbar */
+header {
+  background: linear-gradient(to right, #002868, #bf0a30);
+  padding: 20px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-bottom: 4px solid #ffffff;
+}
+
+nav {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav .logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+nav .logo::before {
+  content: "🇺🇸";
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #ffffff;
+  color: #002868;
+}
+
+/* Hero Section (Optional) */
+.hero {
+  background: url('../images/american-flag.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  font-size: 24px;
+}
+
+/* Page Section */
+section {
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+/* Cards */
+.card {
+  background: white;
+  padding: 30px;
+  border-left: 6px solid #002868;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+  margin-bottom: 30px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  color: #002868;
+  margin-bottom: 10px;
+}
+
+.card p, .card ul li {
+  color: #444;
+}
+
+/* Buttons */
+button, .btn {
+  display: inline-block;
+  background-color: #002868;
+  color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  text-decoration: none;
+}
+
+button:hover, .btn:hover {
+  background-color: #bf0a30;
+}
+
+/* Forms */
+.application-form input,
+.application-form select,
+.application-form textarea {
+  width: 100%;
+  padding: 14px;
+  margin: 10px 0 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.application-form input:focus,
+.application-form select:focus,
+.application-form textarea:focus {
+  border-color: #002868;
+  outline: none;
+}
+
+/* Contact Info Box */
+.contact-info {
+  background-color: #ffffff;
+  padding: 25px;
+  border-left: 6px solid #bf0a30;
+  border-radius: 10px;
+  margin-top: 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Footer */
+footer {
+  background-color: #002868;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+  }
+
+  .hero {
+    font-size: 20px;
+    padding: 60px 20px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .logo {
+    font-size: 24px;
+  }
+
+/* News Section Card */
+.news-card {
+  background: #ffffff;
+  border-left: 6px solid #bf0a30;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 25px;
+  padding: 25px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.news-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.news-card h4 {
+  color: #002868;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.news-card .date {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 12px;
+}
+
+.news-card p {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.news-card a {
+  color: #bf0a30;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.news-card a:hover {
+  color: #002868;
+  text-decoration: underline;
+}
+}

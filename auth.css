@@ -1,0 +1,92 @@
+/* General Auth Page Styles */
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #002868, #bf0a30);
+  padding: 40px;
+}
+
+.auth-box {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+  padding: 40px 30px;
+  text-align: center;
+}
+
+.auth-box h2 {
+  color: #002868;
+  margin-bottom: 25px;
+  font-size: 28px;
+}
+
+.auth-box .input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.auth-box .input-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #002868;
+}
+
+.auth-box .input-group input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.auth-box .input-group input:focus {
+  border-color: #bf0a30;
+  outline: none;
+}
+
+.auth-box button {
+  background: #bf0a30;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-weight: bold;
+  border-radius: 6px;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.auth-box button:hover {
+  background: #a50927;
+}
+
+.auth-box p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+
+.auth-box a {
+  color: #002868;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.flag-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.flag-header img {
+  width: 28px;
+  height: auto;
+  margin-right: 10px;
+}

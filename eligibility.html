@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Eligibility Checker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">US Grants</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="apply.html">Apply</a></li>
+        <li><a href="eligibility.html">Eligibility</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="form-section">
+    <h2>Eligibility Checker</h2>
+    <form class="application-form">
+      <label>Are you a U.S. citizen?</label>
+      <select required>
+        <option value="">Select</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+      <label>Do you have an annual income below $50,000?</label>
+      <select required>
+        <option value="">Select</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+      <label>What type of support do you need?</label>
+      <select required>
+        <option value="">Select</option>
+        <option>Education</option>
+        <option>Business</option>
+        <option>Housing</option>
+        <option>Health</option>
+      </select>
+      <button type="submit">Check Eligibility</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 USA Loans & Grants. All rights reserved.</p>
+  </footer>
+</body>
+</html>

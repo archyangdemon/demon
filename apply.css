@@ -1,0 +1,35 @@
+.form-section {
+  padding: 60px 20px;
+  max-width: 600px;
+  margin: auto;
+  background: #f4f4f4;
+  border: 2px solid #bf0a30;
+  border-radius: 10px;
+}
+
+.form-section h2 {
+  text-align: center;
+  color: #002868;
+  margin-bottom: 30px;
+}
+
+.application-form input,
+.application-form select,
+.application-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.application-form button {
+  background: #002868;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+}
